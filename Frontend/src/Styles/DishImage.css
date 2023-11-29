@@ -37,3 +37,10 @@
     gap: 32px;
     font-family: 'Rubik', sans-serif;
 }
+
+.food-content
+{
+    padding-top: 30px;
+    font-size: 40px;
+        letter-spacing: .7px;
+}

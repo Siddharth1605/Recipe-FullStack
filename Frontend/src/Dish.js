@@ -19,14 +19,28 @@ export default function Dish() {
 
   return (
     <div>
+    <div class="md:container md:mx-auto " style={{marginTop:'5%', width: '1000px', height: '500px' }}>
+    <img src={biriyani} style={{height:'100%', width:'50%', left:'-10%' }} className='float-right'/>
+    <p className='text-style' style={{paddingLeft:'40px', paddingTop:'40px'}}>{food.foodName}</p>
+    <p className='text-name' style={{paddingLeft:'40px', paddingTop:'-10px'}}>{food.foodAuthor}</p>
+    <p className='text-reviews' style={{paddingLeft:'40px', paddingTop:'10px'}}>{food.foodStars}</p>
+    <p className='text-description' style={{paddingLeft:'40px', paddingTop:'30px', paddingBottom:'70px'}}>{food.foodDescription}</p>
 
-    <div class="md:container md:mx-auto "        style={{marginTop:'5%', width: '1000px', height: '500px'  }}> 
-        <img src={biriyani} style={{height:'100%', width:'50%', left:'-10%' }} className='float-right'/>
-        <p className='text-style' style={{paddingLeft:'40px', paddingTop:'40px'}}>{food.foodName}</p>
-        <p className='text-name' style={{paddingLeft:'40px', paddingTop:'-10px'}}>{food.foodAuthor  }</p>
-        <p className='text-reviews' style={{paddingLeft:'40px', paddingTop:'10px'}}>{food.foodStars  }</p>
-        <p className='text-description' style={{paddingLeft:'40px', paddingTop:'30px'}}>{food.foodDescription  }</p>
-    </div>
+    <div>
+    
+    <span style={{ paddingLeft: '45px', fontSize: '15px',  }}>Ingredients</span>
+    <span style={{ paddingLeft: '55px', fontSize: '15px',}}>Calories</span>
+    <span style={{ paddingLeft: '75px', fontSize: '15px' }}>Duration</span>
+    <br></br>
+
+    <span className='food-content' style={{ paddingLeft: '62px',paddingRight:'55px' , borderRight: '1px solid #000' }}>5</span>
+    <span className='food-content' style={{ paddingLeft: '43px',paddingRight:'35px', borderRight: '1px solid #000' }}>55</span>
+    <span className='food-content' style={{ paddingLeft: '48px' }}>55</span>
+    <br></br>
+</div>
+
+</div>
+
 
     <div className="border-t border-gray-300 my-10" style={{marginTop:'3%', marginLeft:'18%', width:'1000px'}}></div>
 

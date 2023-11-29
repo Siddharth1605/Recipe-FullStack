@@ -16,7 +16,7 @@ export default function Cooking() {
                     g1: 'US'
                 },
                 headers: {
-                    'X-RapidAPI-Key': '57f9c30b1amsh013285e7b173e80p173bb6jsnd51ad0867ab4',
+                    'X-RapidAPI-Key': ' ',
                     'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
                   }
             }
